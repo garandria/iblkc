@@ -15,4 +15,4 @@ RUN apt-get install -y \
 
 # Setup of the tool
 RUN apt-get install -y git curl wget time
-# RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
