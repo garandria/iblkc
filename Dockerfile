@@ -9,7 +9,7 @@ RUN apt-get install -y \
     gcc make binutils flex bison dwarves util-linux kmod e2fsprogs jfsutils \
     reiserfsprogs xfsprogs squashfs-tools btrfs-progs pcmciautils quota     \
     ppp libnfs-utils procps udev grub-common iptables openssl libelf-dev    \
-    libssl-dev bc sphinx-common sphinx-doc cpio lz4
+    libssl-dev bc sphinx-common sphinx-doc cpio lz4 pkg-config zstd
 
 # mcelog
 
